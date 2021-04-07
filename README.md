@@ -7,10 +7,6 @@
 ***과제 주요 내용
 1) 자료수집 및 데이터 확보
 2) 사용 알고리즘 비교 분석
-3) Random Forest 모델 적용
-4) XGBoost 모델 적용
-5) Light GBM 모델 적용
-6) DNN 모델 적용
 
 ## 1. 자료수집 및 데이터 확보
 
@@ -41,7 +37,6 @@
 - <b>대상: R-CNN, R-FCN, YOLO, SSD</b>
 - 
 ![image](https://user-images.githubusercontent.com/62275592/113839427-a3aacd80-97ca-11eb-86ef-c7fcbaaecb74.png)
-
 
 -<b>영상 열에서 수화 인식시 필요한 기능</b> <p> 1)영상 데이터에 대한 빠른 객체 탐지</p><p>  2)빠른 학습시간</p><p>  3)edge tech의 실활용을 위한 가벼운 알고리즘</p>
 
