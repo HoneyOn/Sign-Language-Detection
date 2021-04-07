@@ -31,9 +31,11 @@
 
 ![image](https://user-images.githubusercontent.com/62275592/113811670-9af4d000-97a7-11eb-9d07-678dfefe8554.png)
 
-
-- 만족도 상위 3개의 지역: 제주도, 강원도, 전라남도(12.2, 11.8, 11.3)
-- 만족도 하위 3개의 지역: 광주, 대전, 서울(7.9, 8.4, 8.5)
+### 3) 사전학습 데이터셋 확보
+- MS coco dataset 사용 <p>https://cocodataset.org/#home</p>
+- ![image](https://user-images.githubusercontent.com/62275592/113836078-888a8e80-97c7-11eb-9d3a-45e6902103ce.png)
+- coco dataset의 장점
+- ![image](https://user-images.githubusercontent.com/62275592/113836847-36963880-97c8-11eb-80c0-0944a8a14994.png)
 
 ## 2. 데이터 가공
 
