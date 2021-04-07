@@ -24,7 +24,7 @@
 ### 2) 데이터 라벨링
 - 2차원 데이터 라벨링을 위한 바운딩 박스를 데이터 전체 비율로 설정
   (손에 대한 이미지만을 가져왔기 때문에 전체 비율)
-- 순서대로 [class // x_center // y_center // width // height]의 정보를 의미
+- 순서대로 [ class / x_center / y_center / width / height ]의 정보를 의미
 
 ![image](https://user-images.githubusercontent.com/62275592/113811838-e9a26a00-97a7-11eb-8c7b-c82938ee98d0.png)
 
