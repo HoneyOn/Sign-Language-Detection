@@ -38,7 +38,8 @@
 -	80개 이상의 클래스
 
 ## 2. 사용 알고리즘 비교 분석
-- 대상: R-CNN, R-FCN, YOLO, SSD
+- <b>대상: R-CNN, R-FCN, YOLO, SSD</b>
+- 
 ![image](https://user-images.githubusercontent.com/62275592/113839427-a3aacd80-97ca-11eb-86ef-c7fcbaaecb74.png)
 
 
