@@ -28,9 +28,6 @@
 
 ![image](https://user-images.githubusercontent.com/62275592/113811838-e9a26a00-97a7-11eb-8c7b-c82938ee98d0.png)
 
-<생성 코드>
-![image](https://user-images.githubusercontent.com/62275592/113811551-5ff29c80-97a7-11eb-84ad-7a5c2ee2cf78.png)
-
 
 ![image](https://user-images.githubusercontent.com/62275592/113811670-9af4d000-97a7-11eb-9d07-678dfefe8554.png)
 
