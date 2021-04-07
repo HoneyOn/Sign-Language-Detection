@@ -39,8 +39,8 @@
 
 ## 2. 사용 알고리즘 비교 분석
 ![image](https://user-images.githubusercontent.com/62275592/113837710-13b85400-97c9-11eb-9333-336bbe3a9d28.png)
+
 -영상 열에서 수화 인식시 필요한 기능 <p> 1)영상 데이터에 대한 빠른 객체 탐지</p><p>  2)빠른 학습시간</p><p>  3)edge tech의 실활용을 위한 가벼운 알고리즘</p>
-![image](https://user-images.githubusercontent.com/62275592/113838420-b7096900-97c9-11eb-80f7-ac3a2126c3ca.png)
 
 -알고리즘 간 정확도 비교
 
