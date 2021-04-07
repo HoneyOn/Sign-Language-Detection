@@ -29,8 +29,6 @@
 ![image](https://user-images.githubusercontent.com/62275592/113811838-e9a26a00-97a7-11eb-8c7b-c82938ee98d0.png)
 
 
-![image](https://user-images.githubusercontent.com/62275592/113811670-9af4d000-97a7-11eb-9d07-678dfefe8554.png)
-
 ### 3) 사전학습 데이터셋 확보
 - MS coco dataset 사용 <p>https://cocodataset.org/#home</p>
  ![image](https://user-images.githubusercontent.com/62275592/113836078-888a8e80-97c7-11eb-9d3a-45e6902103ce.png)
