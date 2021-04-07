@@ -39,8 +39,15 @@
 
 ## 2. 사용 알고리즘 비교 분석
 ![image](https://user-images.githubusercontent.com/62275592/113837710-13b85400-97c9-11eb-9333-336bbe3a9d28.png)
+-영상 열에서 수화 인식시 필요한 기능 <p> 1)영상 데이터에 대한 빠른 객체 탐지</p><p>  2)빠른 학습시간</p><p>  3)edge tech의 실활용을 위한 가벼운 알고리즘</p>
+![image](https://user-images.githubusercontent.com/62275592/113838420-b7096900-97c9-11eb-80f7-ac3a2126c3ca.png)
 
--영상 열에서 수화 인식시 필요한 기능 <p>1)영상 데이터에 대한 빠른 객체 탐지</p><p>2)빠른 학습시간</p><p>3)edge tech의 실활용을 위한 가벼운 알고리즘</p>
+-알고리즘 간 정확도 비교
+![image](https://user-images.githubusercontent.com/62275592/113838420-b7096900-97c9-11eb-80f7-ac3a2126c3ca.png)
+-알고리즘 간 객체 탐지 시간 비교
+![image](https://user-images.githubusercontent.com/62275592/113838596-e1f3bd00-97c9-11eb-9ca9-952d350f47b1.png)
+
+### 정확도간의 큰 차이는 없지만 비교적 탐색 시간이 빠른 Yolo 알고리즘 선택
 
 ### 1) 명목형 데이터 one-hot Encoding
 ![image](https://user-images.githubusercontent.com/62275592/102603449-2b11f980-4166-11eb-8f75-cbfb81a9aaca.png)
