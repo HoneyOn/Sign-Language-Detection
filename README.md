@@ -21,12 +21,17 @@
 ![image](https://user-images.githubusercontent.com/62275592/113810732-cecef600-97a5-11eb-9672-e84f8fc6602b.png)
 
 
+### 2) 데이터 라벨링
+- 2차원 데이터 라벨링을 위한 바운딩 박스를 데이터 전체 비율로 설정
+  (손에 대한 이미지만을 가져왔기 때문에 전체 비율)
+- 순서대로 <class> <x_center> <y_center> <width> <height> 의 정보를 
+![image](https://user-images.githubusercontent.com/62275592/113811838-e9a26a00-97a7-11eb-8c7b-c82938ee98d0.png)
+<생성 코드>
+![image](https://user-images.githubusercontent.com/62275592/113811551-5ff29c80-97a7-11eb-84ad-7a5c2ee2cf78.png)
 
 
+![image](https://user-images.githubusercontent.com/62275592/113811670-9af4d000-97a7-11eb-9d07-678dfefe8554.png)
 
-
-### 2) 여행지 별 만족도 평가
-![image](https://user-images.githubusercontent.com/62275592/102602630-23058a00-4165-11eb-8d20-e3ce02ea7fd8.png)
 
 - 만족도 상위 3개의 지역: 제주도, 강원도, 전라남도(12.2, 11.8, 11.3)
 - 만족도 하위 3개의 지역: 광주, 대전, 서울(7.9, 8.4, 8.5)
