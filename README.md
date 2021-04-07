@@ -14,9 +14,10 @@
 
 ## 1. 자료수집 및 데이터 확보
 
-### 1) 변수 데이터 셋
+### 1) ASL(American Sign Language) 
 
-![image](https://user-images.githubusercontent.com/62275592/102598961-25191a00-4160-11eb-8de9-1d95a03d5bfa.png)
+![image](https://user-images.githubusercontent.com/62275592/113810732-cecef600-97a5-11eb-9672-e84f8fc6602b.png)
+
 
 
 
