@@ -34,8 +34,7 @@
 ### 3) 사전학습 데이터셋 확보
 - MS coco dataset 사용 <p>https://cocodataset.org/#home</p>
  ![image](https://user-images.githubusercontent.com/62275592/113836078-888a8e80-97c7-11eb-9d3a-45e6902103ce.png)
-- coco dataset의 장점
- ![image](https://user-images.githubusercontent.com/62275592/113836847-36963880-97c8-11eb-80c0-0944a8a14994.png)
+![image](https://user-images.githubusercontent.com/62275592/113836847-36963880-97c8-11eb-80c0-0944a8a14994.png)
 
 ## 2. 데이터 가공
 
