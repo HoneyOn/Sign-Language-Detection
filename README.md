@@ -14,14 +14,16 @@
 
 ## 1. 자료수집 및 데이터 확보
 
-### 1) ASL(American Sign Language) 
+### 1) ASL(American Sign Language) 데이터셋
+- 출처:https://www.kaggle.com/grassknoted/asl-alphabet
+- 데이터 특성: A ~ Z 까지의26개의 class, 각 Train DataSet 3000장
 
 ![image](https://user-images.githubusercontent.com/62275592/113810732-cecef600-97a5-11eb-9672-e84f8fc6602b.png)
 
 
 
 
-- 관광지식정보시스템에서 제공하는 국내 48000명의 여행자 통계 기반 관광 데이터 확보
+
 
 ### 2) 여행지 별 만족도 평가
 ![image](https://user-images.githubusercontent.com/62275592/102602630-23058a00-4165-11eb-8d20-e3ce02ea7fd8.png)
