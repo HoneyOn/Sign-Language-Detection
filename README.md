@@ -40,7 +40,7 @@
 ## 2. 사용 알고리즘 비교 분석
 ![image](https://user-images.githubusercontent.com/62275592/113837710-13b85400-97c9-11eb-9333-336bbe3a9d28.png)
 
--영상 열에서 수화 인식시 필요한 기능 <p> 1)영상 데이터에 대한 빠른 객체 탐지</p><p>  2)빠른 학습시간</p><p>  3)edge tech의 실활용을 위한 가벼운 알고리즘</p>
+-<b>영상 열에서 수화 인식시 필요한 기능</b> <p> 1)영상 데이터에 대한 빠른 객체 탐지</p><p>  2)빠른 학습시간</p><p>  3)edge tech의 실활용을 위한 가벼운 알고리즘</p>
 
 -알고리즘 간 정확도 비교
 
@@ -54,29 +54,7 @@
 
 ### 정확도간의 큰 차이는 없지만 비교적 탐색 시간이 빠른 Yolo 알고리즘 선택
 
-### 1) 명목형 데이터 one-hot Encoding
-![image](https://user-images.githubusercontent.com/62275592/102603449-2b11f980-4166-11eb-8f75-cbfb81a9aaca.png)
 
-- pandas의 get-dummies 함수를 통하여 30개의 명목형 변수들을 227개의 이진 변수로 변환
-
-### 2) Max-Normalization
-
-![image](https://user-images.githubusercontent.com/62275592/102603642-71675880-4166-11eb-8657-553d23d9d270.png)
-
-- 수치형 데이터에 대한 max-normalization
-
-
-### 3) 변수 범주화
-![image](https://user-images.githubusercontent.com/62275592/102604168-23068980-4167-11eb-8ca0-2cf81468047b.png)
-
--일자별 데이터를 계절별 데이터로 범주화
-
-
-### 4) 타겟 변수 설정
-![image](https://user-images.githubusercontent.com/62275592/102604268-4598a280-4167-11eb-85fb-3241d39e0d9d.png)
-
--여행객의 선호도를 평가하기 위해 만족도, 재방문정도, 추천정도의 세가지 변수를 합하여 타겟 변수로 설정
-- 최종 값이 12 이상이면 만족, 11 이하면 불만족의 이진(binary) 변수로 설정
 
 ## 3. Random Forest 모델 적용
 주어진 데이터 셋에서 복원 랜덤 샘플링을 통하여 여러 학습데이터 셋을 만들고, 만들어진 학습 데이터를 모델에 적용시키고 나서 
