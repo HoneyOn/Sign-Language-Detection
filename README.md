@@ -35,6 +35,7 @@
 
 -Google open images DataSet V6 사용 <p>https://storage.googleapis.com/openimages/web/index.html</p>
  ![image](https://user-images.githubusercontent.com/62275592/116673922-ee40f380-a9de-11eb-9ee6-b4992bf116bd.png)
+ ![image](https://user-images.githubusercontent.com/62275592/116675479-d4a0ab80-a9e0-11eb-886a-565857857bae.png)
 - 600개 범주의 15,851,536개 레이블 박스
 - 350개 범주의 2,785,498개 인스턴스 분할
 - 1,466개의 관계에 대한 3,284,280개의 관계 주석
@@ -42,7 +43,7 @@
 - 19,957개 범주의 59,919,574개 이미지 수준 레이블
 - 6,000개 이상의 범주가 있는 크라우드소싱 이미지 478,000개
 
--OID toolkit을 활용해 이미지와 레이블 데이터 함께 다운로드
+-<b>OID toolkit을 활용해 이미지와 레이블 데이터 함께 다운로드</b>
 ![image](https://user-images.githubusercontent.com/62275592/116674844-1bda6c80-a9e0-11eb-8802-a41cf0138862.png)
 
 ## 2. 사용 알고리즘 비교 분석
