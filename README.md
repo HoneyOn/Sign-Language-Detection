@@ -45,6 +45,8 @@
 
 -<b>OID toolkit을 활용해 이미지와 레이블 데이터 함께 다운로드</b>
 ![image](https://user-images.githubusercontent.com/62275592/116675851-3d882380-a9e1-11eb-901c-b228545c9067.png)
+![image](https://user-images.githubusercontent.com/62275592/116679449-7cb87380-a9e5-11eb-8420-052d29e1edff.png)
+
 
 
 ## 2. 사용 알고리즘 비교 분석
