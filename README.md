@@ -33,6 +33,15 @@
 -	150만개 이상의 객체
 -	80개 이상의 클래스
 
+- Google open images DataSet V6 사용 <p>https://storage.googleapis.com/openimages/web/index.html</p>
+- ![image](https://user-images.githubusercontent.com/62275592/116673922-ee40f380-a9de-11eb-9ee6-b4992bf116bd.png)
+- 600개 범주의 15,851,536개 레이블 박스
+- 350개 범주의 2,785,498개 인스턴스 분할
+- 1,466개의 관계에 대한 3,284,280개의 관계 주석
+- 675,155개의 지역화된 서술
+- 19,957개 범주의 59,919,574개 이미지 수준 레이블
+
+확장 - 6,000개 이상의 범주가 있는 크라우드소싱 이미지 478,000개
 ## 2. 사용 알고리즘 비교 분석
 - <b>대상: R-CNN, R-FCN, YOLO, SSD</b>
 - 
