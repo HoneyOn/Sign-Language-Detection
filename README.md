@@ -71,14 +71,24 @@
 ## 3. 손 객체 탐지(by. YoloV4)
 
 ### 1) Darknet 다운로드
--기존 깃허브에 존재하는 AB의 repository로부터 makefile을 조정하여 Darknet용 OPENCV 및 GPU를 사용하도록 설정한 다음 Darknet을 빌드
+<b>기존 깃허브에 존재하는 AB의 repository로부터 makefile을 조정하여 Darknet용 OPENCV 및 GPU를 사용하도록 설정한 다음 Darknet을 빌드</b>
 ![image](https://user-images.githubusercontent.com/62275592/116676391-e33b9280-a9e1-11eb-9f38-cab07dd9dedc.png)
 
 ### 2) 전이학습을 위한 background 가중치 다운로드
--기존에 코코 데이터셋 기반 80개의 분류 학습되어 있던 가중치 다운로드
+<b>기존에 코코 데이터셋 기반 80개의 분류 학습되어 있던 가중치 다운로드</b>
 ![image](https://user-images.githubusercontent.com/62275592/116676554-11b96d80-a9e2-11eb-89c5-937ffd44299d.png)
 
 ### 3) 불러온 가중치로 일반적인 객체 탐지 테스트
+<b>학습되어 있는 객체는 높은 확률로 탐지</b>
+![image](https://user-images.githubusercontent.com/62275592/116678065-de77de00-a9e3-11eb-8c36-16d3d1b7a974.png)
+
+
+
+
+
+
+
+
 
 
 
