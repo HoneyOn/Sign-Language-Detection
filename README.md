@@ -110,7 +110,7 @@ batch=64 / subdivisions=16
 
 ![image](https://user-images.githubusercontent.com/62275592/120881810-b9900f80-c60e-11eb-873c-cd303a8a365a.png)
 
-## 4. 수화 이미지 분류(by. YoloV4)
+## 4. 수화 이미지 분류(by. 4-layer CNN[지도학습] vs ResNet[전이학습])
 
 ### 1) 4-layer CNN 지도학습
 <h4>mnist 상에 존재하는 수화 데이터 셋을 사용하여 4-layer classifier를 생성 및 학습</h4>
@@ -129,3 +129,10 @@ batch=64 / subdivisions=16
 <br>optimizer는 모멘텀의 적응적 학습을 통해 대부분의 최적화 방식보다 성능이 좋은 ADAM으로 설정 
 
 ![image](https://user-images.githubusercontent.com/62275592/120883563-d0d3fa80-c618-11eb-810b-80d7fd1dfad2.png)
+
+<h4>결과</h4>
+10 epoch으로 시행 후 accuracy 비교
+![image](https://user-images.githubusercontent.com/62275592/120883688-9454ce80-c619-11eb-863a-48883cc0dbae.png)
+test dataset을 통한 분류의 오류가 어느 정도 존재
+![image](https://user-images.githubusercontent.com/62275592/120883723-bfd7b900-c619-11eb-8a2e-98ce77e00eab.png)
+
