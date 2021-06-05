@@ -147,10 +147,17 @@ batch=64 / subdivisions=16
 
 
 ### 2) ResNet 전이학습
-<h4>1-1)imagenet에서 pretrained 된 ResNet 네트워크에 ASL 데이터 셋을 사용하여 수화 분류에 대한 전이학습</h4>
+<h4>2-1)imagenet에서 pretrained 된 ResNet 네트워크에 ASL 데이터 셋을 사용하여 수화 분류에 대한 전이학습</h4>
  사용 데이터셋: 1의 자료수집에서 확보한 ASL(American Sign Language) 데이터셋
  <br> (-경로설정, 이미지 사이즈: 224x224 pixel, 배치 사이즈: 32)
  
  ![image](https://user-images.githubusercontent.com/62275592/120885007-79865800-c621-11eb-8e78-a607d6d66372.png)
 
+<h4>2-2)데이터 증강(data augumentation)</h4>
+ - 횡이동 비율: 0.2
+ - 축이동 비율: 0.2
+ - 회전 및 확대 범위: 0.2
+ - valid split: 40%
+ - 
+ ![image](https://user-images.githubusercontent.com/62275592/120885108-219c2100-c622-11eb-8e75-c70fe8493a3a.png)
 
