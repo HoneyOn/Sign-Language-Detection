@@ -102,11 +102,11 @@
 batch=64 / subdivisions=16 
 
 ### 5) 결과 확인
-<h3>손에 대한 객체 탐지를 성공적으로 완료</h3> 
+<h4>손에 대한 객체 탐지 이미지 내에서 바운딩 박스 표현</h4> 
 
 ![image](https://user-images.githubusercontent.com/62275592/120881657-a597de00-c60d-11eb-840f-d2021cd3220f.png)
 <br>
-<h3>손 객체에 대한 레이블 정보를 txt파일 형태로 저장</h3> 
+<h4>손 객체에 대한 레이블 정보를 txt파일 형태로 저장</h4> 
 
 ![image](https://user-images.githubusercontent.com/62275592/120881810-b9900f80-c60e-11eb-873c-cd303a8a365a.png)
 
