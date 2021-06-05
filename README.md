@@ -113,8 +113,9 @@ batch=64 / subdivisions=16
 ## 4. 수화 이미지 분류(by. YoloV4)
 
 ### 1) 4-layer CNN 지도학습
--<h4>mnist 상에 존재하는 수화 데이터 셋을 사용하여 4-layer classifier를 생성 및 학습</h4>
+<h4>mnist 상에 존재하는 수화 데이터 셋을 사용하여 4-layer classifier를 생성 및 학습</h4>
 <br> 사용 데이터셋: mnist 수화 데이터셋
+- 출처:https://www.kaggle.com/datamunge/sign-language-mnist
 ![image](https://user-images.githubusercontent.com/62275592/120883231-f2cc7d80-c616-11eb-984f-8b5ce75caf14.png)
-<br> csv형태로 저장되어 있으며 총 1500 여개의 데이터
+- 데이터 특성: csv형태로 저장되어 있으며, 28 x 28nb pixels, 총 1500 여개의 데이터
 ![image](https://user-images.githubusercontent.com/62275592/120883216-ddefea00-c616-11eb-97c5-14478cdc0eeb.png)
