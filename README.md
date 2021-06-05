@@ -101,9 +101,14 @@
 ![image](https://user-images.githubusercontent.com/62275592/116679927-0c5e2200-a9e6-11eb-905d-a1e2418dc767.png)
 batch=64 / subdivisions=16 
 
+### 5) 결과 확인
+<p>손에 대한 객체 탐지를 성공적으로 완료</p> 
 
+![image](https://user-images.githubusercontent.com/62275592/120881657-a597de00-c60d-11eb-840f-d2021cd3220f.png)
 
+<p>손 객체에 대한 레이블 정보를 txt파일 형태로 저장</p> 
 
+![image](https://user-images.githubusercontent.com/62275592/120881797-9b2a1400-c60e-11eb-9851-6e29c158f810.png)
 
 
 
