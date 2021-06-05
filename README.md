@@ -123,8 +123,9 @@ batch=64 / subdivisions=16
 ![image](https://user-images.githubusercontent.com/62275592/120883216-ddefea00-c616-11eb-97c5-14478cdc0eeb.png)
 
 <h4>모델 구성</h4>
-<br>은닉층 활성화 함수는 오류역전파의 가중치 소실을 최소화 하기 위한 RELU 함수로 설정
+은닉층 활성화 함수는 오류역전파의 가중치 소실을 최소화 하기 위한 RELU 함수로 설정
 <br>출력층 활성화 함수는 이산적인 분류를 위한 softmax 함수로 설정
 <br>과도한 학습을 막기 위해 각 층마다 dropout 비율 0.2로 설정
 <br>optimizer는 모멘텀의 적응적 학습을 통해 대부분의 최적화 방식보다 성능이 좋은 ADAM으로 설정 
+
 ![image](https://user-images.githubusercontent.com/62275592/120883563-d0d3fa80-c618-11eb-810b-80d7fd1dfad2.png)
