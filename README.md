@@ -113,7 +113,7 @@ batch=64 / subdivisions=16
 ## 4. 수화 이미지 분류(by. 4-layer CNN[지도학습] vs ResNet[전이학습])
 
 ### 1) 4-layer CNN 지도학습
-<h4>mnist 상에 존재하는 수화 데이터 셋을 사용하여 4-layer classifier를 생성 및 학습</h4>
+<h4>1-1)mnist 상에 존재하는 수화 데이터 셋을 사용하여 4-layer classifier를 생성 및 학습</h4>
  사용 데이터셋: mnist 수화 데이터셋
 
 - 출처:https://www.kaggle.com/datamunge/sign-language-mnist 
@@ -122,7 +122,7 @@ batch=64 / subdivisions=16
 - 데이터 특성: csv형태로 저장되어 있으며, 28 x 28nb pixels, 총 1500 여개의 데이터
 ![image](https://user-images.githubusercontent.com/62275592/120883216-ddefea00-c616-11eb-97c5-14478cdc0eeb.png)
 
-<h4>모델 구성</h4>
+<h4>1-2)모델 구성</h4>
 은닉층 활성화 함수는 오류역전파의 가중치 소실을 최소화 하기 위한 RELU 함수로 설정
 <br>출력층 활성화 함수는 이산적인 분류를 위한 softmax 함수로 설정
 <br>과도한 학습을 막기 위해 각 층마다 dropout 비율 0.2로 설정
@@ -130,7 +130,17 @@ batch=64 / subdivisions=16
 
 ![image](https://user-images.githubusercontent.com/62275592/120883563-d0d3fa80-c618-11eb-810b-80d7fd1dfad2.png)
 
-<h4>결과</h4>
+<h4>1-3)결과</h4>
 
 ![image](https://user-images.githubusercontent.com/62275592/120883777-19d87e80-c61a-11eb-883a-ebac71d50b99.png)
 
+
+<h4>1-3)원인 해석</h4>
+
+- 1)28 x 28의 픽셀은 사진을 너무 뭉개뜨려 학습에 잡음이 많이 생긴다.
+
+![image](https://user-images.githubusercontent.com/62275592/120883890-cadf1900-c61a-11eb-8eb2-d642c3c688ce.png)
+
+- 2)1500장의 데이터셋으로 학습시키기에는 분류할 class에 비해 데이터의 양이 부족하다.
+
+- 3)밑바닥 부터의 4-layer 학습이라 분류기가 단순한 한계가 있다.
