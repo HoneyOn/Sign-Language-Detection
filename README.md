@@ -132,7 +132,10 @@ batch=64 / subdivisions=16
 
 <h4>결과</h4>
 10 epoch으로 시행 후 accuracy 비교
+
 ![image](https://user-images.githubusercontent.com/62275592/120883688-9454ce80-c619-11eb-863a-48883cc0dbae.png)
+
 test dataset을 통한 분류의 오류가 어느 정도 존재
+
 ![image](https://user-images.githubusercontent.com/62275592/120883723-bfd7b900-c619-11eb-8a2e-98ce77e00eab.png)
 
