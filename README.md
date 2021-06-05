@@ -115,7 +115,8 @@ batch=64 / subdivisions=16
 ### 1) 4-layer CNN 지도학습
 <h4>mnist 상에 존재하는 수화 데이터 셋을 사용하여 4-layer classifier를 생성 및 학습</h4>
 <br> 사용 데이터셋: mnist 수화 데이터셋
-- 출처:https://www.kaggle.com/datamunge/sign-language-mnist <br>
+
+- 출처:https://www.kaggle.com/datamunge/sign-language-mnist 
 ![image](https://user-images.githubusercontent.com/62275592/120883231-f2cc7d80-c616-11eb-984f-8b5ce75caf14.png)
 
 - 데이터 특성: csv형태로 저장되어 있으며, 28 x 28nb pixels, 총 1500 여개의 데이터
