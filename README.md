@@ -110,7 +110,7 @@ batch=64 / subdivisions=16
 
 ![image](https://user-images.githubusercontent.com/62275592/120881810-b9900f80-c60e-11eb-873c-cd303a8a365a.png)
 
-## 4. 수화 이미지 분류(by. 4-layer CNN[지도학습] vs ResNet[전이학습])
+## 4. 수화 이미지 분류(4-layer CNN[지도학습] vs ResNet[전이학습])
 
 ### 1) 4-layer CNN 지도학습
 <h4>1-1)mnist 상에 존재하는 수화 데이터 셋을 사용하여 4-layer classifier를 생성 및 학습</h4>
@@ -147,3 +147,9 @@ batch=64 / subdivisions=16
 
 
 ### 2) ResNet 전이학습
+<h4>1-1)imagenet에서 pretrained 된 ResNet 네트워크에 ASL 데이터 셋을 사용하여 수화 분류에 대한 전이학습</h4>
+ 사용 데이터셋: 1의 자료수집에서 확보한 ASL(American Sign Language) 데이터셋
+ <br> 경로설정, 이미지 사이즈: 224x224 pixel
+ ![image](https://user-images.githubusercontent.com/62275592/120885007-79865800-c621-11eb-8e78-a607d6d66372.png)
+
+
