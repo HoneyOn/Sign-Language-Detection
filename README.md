@@ -108,7 +108,8 @@ batch=64 / subdivisions=16
 
 <p>손 객체에 대한 레이블 정보를 txt파일 형태로 저장</p> 
 
-![image](https://user-images.githubusercontent.com/62275592/120881797-9b2a1400-c60e-11eb-9851-6e29c158f810.png)
+![image](https://user-images.githubusercontent.com/62275592/120881810-b9900f80-c60e-11eb-873c-cd303a8a365a.png)
+
 
 
 
