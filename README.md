@@ -131,11 +131,6 @@ batch=64 / subdivisions=16
 ![image](https://user-images.githubusercontent.com/62275592/120883563-d0d3fa80-c618-11eb-810b-80d7fd1dfad2.png)
 
 <h4>결과</h4>
-10 epoch으로 시행 후 accuracy 비교
 
-![image](https://user-images.githubusercontent.com/62275592/120883688-9454ce80-c619-11eb-863a-48883cc0dbae.png)
-
-test dataset을 통한 분류의 오류가 어느 정도 존재
-
-![image](https://user-images.githubusercontent.com/62275592/120883723-bfd7b900-c619-11eb-8a2e-98ce77e00eab.png)
+![image](https://user-images.githubusercontent.com/62275592/120883777-19d87e80-c61a-11eb-883a-ebac71d50b99.png)
 
