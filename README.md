@@ -158,3 +158,16 @@ batch=64 / subdivisions=16
  
 ![image](https://user-images.githubusercontent.com/62275592/120885108-219c2100-c622-11eb-8e75-c70fe8493a3a.png)
 
+<h4>2-3)모델 구현</h4>
+
+![image](https://user-images.githubusercontent.com/62275592/120885260-f36b1100-c622-11eb-885a-cd749c7f0352.png)
+
+
+- imagenet에서 학습시킨 네트워크를 전이학습 base model로 설정
+
+
+- base model의 parameter는 데이터가 많이 확보된 것은 아니기에 freeze (trained data: 3600장)
+
+
+- 은닉층 RELU, 출력층 Softmax, 
+
