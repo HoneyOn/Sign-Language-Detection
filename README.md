@@ -154,10 +154,7 @@ batch=64 / subdivisions=16
  ![image](https://user-images.githubusercontent.com/62275592/120885007-79865800-c621-11eb-8e78-a607d6d66372.png)
 
 <h4>2-2)데이터 증강(data augumentation)</h4>
-- 횡이동 비율: 0.2
-- 축이동 비율: 0.2
-- 회전 및 확대 범위: 0.2
-- valid split: 40%
+횡이동 비율: 0.2, 축이동 비율: 0.2, 회전 및 확대 범위: 0.2, 좌우 반전 허용, valid split: 40%
  
 ![image](https://user-images.githubusercontent.com/62275592/120885108-219c2100-c622-11eb-8e75-c70fe8493a3a.png)
 
