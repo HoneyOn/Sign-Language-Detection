@@ -201,10 +201,10 @@ test Accuracy :91%
 
 ![image](https://user-images.githubusercontent.com/62275592/120911718-6d9fa200-c6c4-11eb-8d66-d0026f1a7343.png)
 
-각 class의 test data마다 예측 확률에 대한 특성들이 존재하여,
-최종 출력 함수에 특성을 고려한 threshold를 대입. (ex. s로 예측하기 위해선 S에 대하여 95% 이상의 정확도가 나와야한다)
+최종 출력 함수에 특성을 고려한 threshold를 대입. 
+<br>(ex. s로 예측하기 위해선 S에 대하여 95% 이상의 정확도가 나와야한다)
 
-![image](https://user-images.githubusercontent.com/62275592/120911760-dc7cfb00-c6c4-11eb-9dde-bf41b3eb05ee.png)
+![image](https://user-images.githubusercontent.com/62275592/120911936-15699f80-c6c6-11eb-8805-dcc06b544b43.png)
 
 ![image](https://user-images.githubusercontent.com/62275592/120911837-4bf2ea80-c6c5-11eb-94a2-ac0da503395c.png)
 
