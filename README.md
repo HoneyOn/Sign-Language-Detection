@@ -187,4 +187,18 @@ test Accuracy :91%
 ![image](https://user-images.githubusercontent.com/62275592/120911477-bb1b0f80-c6c2-11eb-91bc-32fb02c9d4bd.png)
 
 
+<h4>2-5) 정확도를 높이기 위한 추가적인 학습</h4>
+
+- 분류가 어려운 A, E, S 등에 대하여 3000장씩 추가하여 학습
+
+![image](https://user-images.githubusercontent.com/62275592/120911664-fcf88580-c6c3-11eb-8de3-96de8a768e8b.png)
+
+![image](https://user-images.githubusercontent.com/62275592/120911671-14d00980-c6c4-11eb-9d28-4b23bfcb24e1.png)
+
+![image](https://user-images.githubusercontent.com/62275592/120911709-55c81e00-c6c4-11eb-97fb-c75032c29ec3.png)
+
+![image](https://user-images.githubusercontent.com/62275592/120911715-62e50d00-c6c4-11eb-8773-141dce7c28f5.png)
+
+![image](https://user-images.githubusercontent.com/62275592/120911718-6d9fa200-c6c4-11eb-8d66-d0026f1a7343.png)
+
 
