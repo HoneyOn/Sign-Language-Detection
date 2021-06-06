@@ -169,5 +169,22 @@ batch=64 / subdivisions=16
 - base model의 parameter는 데이터가 많이 확보된 것은 아니기에 freeze (trained data: 3600장)
 
 
-- 은닉층 RELU, 출력층 Softmax, 
+- 은닉층 RELU, 출력층 Softmax, optimizer ADAM
+
+
+
+<h4>2-4)결과</h4>
+
+![image](https://user-images.githubusercontent.com/62275592/120911401-42b44e80-c6c2-11eb-97ca-9d05f0ceca2c.png)
+
+test Accuracy :91%
+
+<br> 꽤나 우수한 정확도지만 내가 직접 찍은 데이터에 대하여 비슷한 손모양의 알파벳들은 분류가 조금 안됨.
+<br> 직접 만든 test data에 대한 분류
+
+![image](https://user-images.githubusercontent.com/62275592/120911504-f584ac80-c6c2-11eb-802e-78fd5adfdb53.png)
+
+![image](https://user-images.githubusercontent.com/62275592/120911477-bb1b0f80-c6c2-11eb-91bc-32fb02c9d4bd.png)
+
+
 
